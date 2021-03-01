@@ -23,7 +23,6 @@
 //
 // 谷歌：我们90％的工程师使用您编写的软件(Homebrew)，但是您却无法在面试时在白板上写出翻转二叉树这道题，这太糟糕了。
 
-
 /**
  * 翻转二叉树
  *
@@ -32,25 +31,6 @@
  * @Date: 2021/03/02 01:39
  */
 public class InvertTree {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     public TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;
