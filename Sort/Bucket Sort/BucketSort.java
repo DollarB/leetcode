@@ -1,5 +1,3 @@
-package com.example.interview.util.sort;
-
 import java.util.ArrayList;
 import java.util.Collections;
 

@@ -1,5 +1,3 @@
-package com.example.interview.util.sort;
-
 /**
  * 二分查找算法
  *
