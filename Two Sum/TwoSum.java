@@ -52,9 +52,10 @@ public class TwoSum {
 
     /**
      * 暴力枚举
-     *
+     * <p>
      * 时间复杂度O(N2)
      * 空间复杂度O(1)
+     *
      * @param nums
      * @param target
      * @return
@@ -80,20 +81,21 @@ public class TwoSum {
 
     /**
      * 哈希匹配
-     *
+     * <p>
      * 时间复杂度O(N)
      * 空间复杂度O(N)
+     *
      * @param nums
      * @param target
      * @return
      */
     public int[] twoSumByHashMap(int[] nums, int target) {
-        Map<Integer,Integer> res = new HashMap<>();
-        for (int i = 0; i< nums.length;i++) {
-            if (res.containsKey(target-nums[i])) {
-                return new int[]{res.get(target-nums[i]),i};
+        Map<Integer, Integer> res = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (res.containsKey(target - nums[i])) {
+                return new int[]{res.get(target - nums[i]), i};
             }
-            res.put(nums[i],i);
+            res.put(nums[i], i);
         }
         return new int[0];
     }
