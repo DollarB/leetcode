@@ -1,8 +1,10 @@
 package com.example.interview.util.data;
 
 /**
- * @Author: yage
- * @Email: yage@fordeal.com
+ * 栈
+ *
+ * @Author: DollarB
+ * @Email: byxochitl@gmail.com
  * @Date: 2021/01/18 14:21
  */
 public class Stack<E> {
