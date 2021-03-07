@@ -55,8 +55,10 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @Author: yage
- * @Email: yage@fordeal.com
+ * 有效的括号
+ *
+ * @Author: DollarB
+ * @Email: byxochitl@gmail.com
  * @Date: 2021/03/08 00:46
  */
 public class ValidParentheses {
