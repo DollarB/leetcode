@@ -60,10 +60,14 @@ public class LengthOfLongestSubstring {
         int n = s.length(), ans = 0;
         Map<Character, Integer> map = new HashMap<>();
         for (int end = 0, start = 0; end < n; end++) {
+            // 递增获取对应下标的字符
             char alpha = s.charAt(end);
+            // 判断字符是否在map中
             if (map.containsKey(alpha)) {
+                // 通过对比找到字串开始下标
                 start = Math.max(map.get(alpha), start);
             }
+            // 通过对比找到字串结束下标
             ans = Math.max(ans, end - start + 1);
             map.put(s.charAt(end), end + 1);
         }
