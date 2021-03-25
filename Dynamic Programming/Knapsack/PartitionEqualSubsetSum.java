@@ -39,7 +39,7 @@ package Knapsack;
  * @Email: byxochitl@gmail.com
  * @Date: 2021/03/25 20:31
  */
-public class ZeroOneKnapsack {
+public class PartitionEqualSubsetSum {
     public boolean canPartition(int[] nums) {
         int len = nums.length;
         int sum = 0;
