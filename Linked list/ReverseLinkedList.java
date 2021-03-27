@@ -26,8 +26,6 @@
 // -500 <= Node.val <= 500
 // 1 <= left <= right <= n
 
-import java.util.List;
-
 /**
  * 反转链表
  *

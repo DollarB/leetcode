@@ -52,8 +52,6 @@ package Knapsack;
 //
 // Related Topics 动态规划
 
-import java.util.Arrays;
-
 /**
  * 零钱兑换II
  *
