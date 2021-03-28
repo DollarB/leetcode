@@ -1,5 +1,3 @@
-package com.example.interview.util.data;
-
 /**
  * 栈
  *
